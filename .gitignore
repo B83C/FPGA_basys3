@@ -4,3 +4,4 @@ target/**
 clockInfo.txt
 sim/**
 *.pb
+.*/

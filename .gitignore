@@ -4,4 +4,5 @@ target/**
 clockInfo.txt
 sim/**
 *.pb
-.*/
+.*
+!.gitignore

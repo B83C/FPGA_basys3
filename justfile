@@ -12,7 +12,7 @@ wave: sim
     cd sim; gtkwave waveform.vcd
 
 build:
-    /home/b83c/tools/Xilinx/Vivado/2024.1/bin/vivado -mode batch -notrace -quiet -source  -nojournal -nolog build.tcl 
+    /home/b83c/tools/Xilinx/Vivado/2024.1/bin/vivado -nolog -nojournal -mode batch -notrace -quiet -source  build.tcl 
 
 upload: 
     openFPGALoader -b basys3 ./target/BASYS3.bit

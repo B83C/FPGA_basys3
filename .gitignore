@@ -1,7 +1,7 @@
 target/**
 *.log
 *.jou
-clockInfo.txt
+*.txt
 sim/**
 *.pb
 .*
